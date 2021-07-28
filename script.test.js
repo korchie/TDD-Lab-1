@@ -26,3 +26,31 @@ test("cat translates to atcay", () => {
 test("psychology translates to ologypsychay", () => {
     expect(pigLatin("psychology")).toBe("ologypsychay");
 })
+
+test("Bowser translates to owserbay", () => {
+    expect(pigLatin("Bowser")).toBe("owserbay");
+})
+
+test("Pikachu translates to ikachupay", () => {
+    expect(pigLatin("Pikachu")).toBe("ikachupay");
+})
+
+test("Precious translates to eciouspray", () => {
+    expect(pigLatin("Precious")).toBe("eciouspray");
+})
+
+test("Bulbasaur translates to ulbasaurbay", () => {
+    expect(pigLatin("Bulbasaur")).toBe("ulbasaurbay");
+})
+
+test("Charmander translates to armanderchay", () => {
+    expect(pigLatin("Charmander")).toBe("armanderchay");
+})
+
+test("EeVeE translates to eeveeway", () => {
+    expect(pigLatin("EeVeE")).toBe("eeveeway");
+})
+
+test("SpOnGeBoB translates to ongebobspay", () => {
+    expect(pigLatin("SpOnGeBoB")).toBe("ongebobspay");
+})
