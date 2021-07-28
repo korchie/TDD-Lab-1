@@ -1,0 +1,25 @@
+TDD LAB 1
+
+Intro: Pig Latin is a children’s word game in English where starting consonants are flipped to the ends of words and -ay added to each word.  Hello World would be ellohay orldway in Pig Latin, for instance.  Many languages have games similar to this--read more at http://mentalfloss.com/article/50242/pig-latins-11-other-languages 
+
+Task: Use TDD practices to build a function that translates from English to Pig Latin.
+
+Build Specifications
+1. Translation must all be done in a translate function that takes a string parameter and returns the translated Pig Latin string.
+2. The translation functionality must be developed with TDD using tests on the translate function.
+3. If desired, you may also create other helper functions and optionally test them.
+
+Additional Build Specifications
+1. Convert each word to lowercase before translating.
+2. If a word starts with a vowel, just add “way” onto the ending.
+3. If a word starts with a consonant, move all of the consonants that appear before the first vowel to the end of the word, then add “ay” to the end of the word.
+
+Hints
+-Treat “y” as a consonant.
+-Start with the simplest cases and work up, for example…
+    a. words that start with vowels… write tests for several different starting vowels
+    b. words that start with vowels with capital letters are converted to lowercase
+    c. words that start with one consonant… write tests for the second letter being several different vowels
+    d. words that start with two consonants
+    e. words that start with more consonants
+
