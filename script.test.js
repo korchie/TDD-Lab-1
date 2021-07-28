@@ -54,3 +54,15 @@ test("EeVeE translates to eeveeway", () => {
 test("SpOnGeBoB translates to ongebobspay", () => {
     expect(pigLatin("SpOnGeBoB")).toBe("ongebobspay");
 })
+
+test("Onix translayes to onixway", () => {
+    expect(pigLatin("Onix")).toBe("onixway");
+})
+
+test("Aipom translates to aipomway", () => {
+    expect(pigLatin("Aipom")).toBe("aipomway");
+})
+
+test("Abra translates to abraway", () => {
+    expect(pigLatin("Abra")).toBe("abraway");
+})

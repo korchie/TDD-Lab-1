@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1627514527984" clover="3.2.0">
-  <project timestamp="1627514527984" name="All files">
+<coverage generated="1627514915553" clover="3.2.0">
+  <project timestamp="1627514915553" name="All files">
     <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1" elements="16" coveredelements="16" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
     <file name="script.js" path="C:\Users\korch\Documents\Grand_Circus\TDD-Lab-1\script.js">
       <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="5" count="13" type="stmt"/>
-      <line num="6" count="13" type="stmt"/>
-      <line num="8" count="13" type="cond" truecount="2" falsecount="0"/>
-      <line num="10" count="4" type="stmt"/>
+      <line num="5" count="16" type="stmt"/>
+      <line num="6" count="16" type="stmt"/>
+      <line num="8" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="7" type="stmt"/>
       <line num="15" count="9" type="stmt"/>
       <line num="17" count="9" type="stmt"/>
       <line num="19" count="25" type="cond" truecount="2" falsecount="0"/>
